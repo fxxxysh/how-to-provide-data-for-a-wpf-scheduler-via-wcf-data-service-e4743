@@ -1,0 +1,54 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="1.0">
+    <Schema Namespace="CarsModelModel" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityType Name="Car">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false" />
+        <Property Name="Trademark" Type="Edm.String" Nullable="true" MaxLength="50" Unicode="true" FixedLength="false" />
+        <Property Name="Model" Type="Edm.String" Nullable="true" MaxLength="50" Unicode="true" FixedLength="false" />
+        <Property Name="HP" Type="Edm.Int16" Nullable="true" />
+        <Property Name="Liter" Type="Edm.Double" Nullable="true" />
+        <Property Name="Cyl" Type="Edm.Byte" Nullable="true" />
+        <Property Name="TransmissSpeedCount" Type="Edm.Byte" Nullable="true" />
+        <Property Name="TransmissAutomatic" Type="Edm.String" Nullable="true" MaxLength="3" Unicode="true" FixedLength="false" />
+        <Property Name="MPG_City" Type="Edm.Byte" Nullable="true" />
+        <Property Name="MPG_Highway" Type="Edm.Byte" Nullable="true" />
+        <Property Name="Category" Type="Edm.String" Nullable="true" MaxLength="7" Unicode="true" FixedLength="false" />
+        <Property Name="Description" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+        <Property Name="Hyperlink" Type="Edm.String" Nullable="true" MaxLength="50" Unicode="true" FixedLength="false" />
+        <Property Name="Picture" Type="Edm.Binary" Nullable="true" MaxLength="Max" FixedLength="false" />
+        <Property Name="Price" Type="Edm.Decimal" Nullable="true" Precision="19" Scale="4" />
+        <Property Name="RtfContent" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+      </EntityType>
+      <EntityType Name="CarScheduling">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="CarId" Type="Edm.Int32" Nullable="true" />
+        <Property Name="UserId" Type="Edm.Int32" Nullable="true" />
+        <Property Name="Status" Type="Edm.Int32" Nullable="true" />
+        <Property Name="Subject" Type="Edm.String" Nullable="true" MaxLength="50" Unicode="true" FixedLength="false" />
+        <Property Name="Description" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+        <Property Name="Label" Type="Edm.Int32" Nullable="true" />
+        <Property Name="StartTime" Type="Edm.DateTime" Nullable="true" />
+        <Property Name="EndTime" Type="Edm.DateTime" Nullable="true" />
+        <Property Name="Location" Type="Edm.String" Nullable="true" MaxLength="50" Unicode="true" FixedLength="false" />
+        <Property Name="AllDay" Type="Edm.Boolean" Nullable="false" />
+        <Property Name="EventType" Type="Edm.Int32" Nullable="true" />
+        <Property Name="RecurrenceInfo" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+        <Property Name="ReminderInfo" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+        <Property Name="Price" Type="Edm.Decimal" Nullable="true" Precision="19" Scale="4" />
+        <Property Name="ContactInfo" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+      </EntityType>
+    </Schema>
+    <Schema Namespace="CarsModelService" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityContainer Name="CarsModelEntities" p7:LazyLoadingEnabled="true" m:IsDefaultEntityContainer="true" xmlns:p7="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntitySet Name="Cars" EntityType="CarsModelModel.Car" />
+        <EntitySet Name="CarSchedulings" EntityType="CarsModelModel.CarScheduling" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>
