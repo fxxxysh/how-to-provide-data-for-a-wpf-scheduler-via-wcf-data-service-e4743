@@ -7,12 +7,9 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace CarsModelService
 
 
-	Partial Public Class About
-	End Class
+    Partial Public Class About
+    End Class
 End Namespace

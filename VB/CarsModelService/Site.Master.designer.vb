@@ -7,66 +7,63 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace CarsModelService
 
 
-	Partial Public Class SiteMaster
+    Partial Public Class SiteMaster
 
-		''' <summary>
-		''' HeadContent control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+        ''' <summary>
+        ''' HeadContent control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
 
-		''' <summary>
-		''' MasterPageScriptManager control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected MasterPageScriptManager As Global.System.Web.UI.ScriptManager
+        ''' <summary>
+        ''' MasterPageScriptManager control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected MasterPageScriptManager As Global.System.Web.UI.ScriptManager
 
-		''' <summary>
-		''' HeadLoginView control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected HeadLoginView As Global.System.Web.UI.WebControls.LoginView
+        ''' <summary>
+        ''' HeadLoginView control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected HeadLoginView As Global.System.Web.UI.WebControls.LoginView
 
-		''' <summary>
-		''' HeadHomeLink control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected HeadHomeLink As Global.System.Web.UI.HtmlControls.HtmlAnchor
+        ''' <summary>
+        ''' HeadHomeLink control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected HeadHomeLink As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
-		''' <summary>
-		''' HeadAboutLink control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected HeadAboutLink As Global.System.Web.UI.HtmlControls.HtmlAnchor
+        ''' <summary>
+        ''' HeadAboutLink control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected HeadAboutLink As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
-		''' <summary>
-		''' MainContent control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
-	End Class
+        ''' <summary>
+        ''' MainContent control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    End Class
 End Namespace

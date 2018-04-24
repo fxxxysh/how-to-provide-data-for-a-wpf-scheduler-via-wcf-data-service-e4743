@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarsModelService", "CarsModelService\CarsModelService.vbproj", "{BBA602BA-5475-4EF7-AF76-5FB82D9246F5}"
 EndProject

@@ -7,12 +7,9 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace CarsModelService.Account
 
 
-	Partial Public Class ChangePasswordSuccess
-	End Class
+    Partial Public Class ChangePasswordSuccess
+    End Class
 End Namespace

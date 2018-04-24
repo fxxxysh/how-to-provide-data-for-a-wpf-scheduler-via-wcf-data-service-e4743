@@ -7,21 +7,18 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace CarsModelService.Account
 
 
-	Partial Public Class ChangePassword
+    Partial Public Class ChangePassword
 
-		''' <summary>
-		''' ChangeUserPassword control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected ChangeUserPassword As Global.System.Web.UI.WebControls.ChangePassword
-	End Class
+        ''' <summary>
+        ''' ChangeUserPassword control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected ChangeUserPassword As Global.System.Web.UI.WebControls.ChangePassword
+    End Class
 End Namespace
